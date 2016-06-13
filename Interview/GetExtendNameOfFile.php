@@ -6,10 +6,11 @@
  * Time: 19:49
  */
 
-function getExt($url){
-    $arr=parse_url($url);
-    $file=basename($arr['path']);
-    $ext=explode('.',$file);
+function getExt($url)
+{
+    $arr = parse_url($url);
+    $file = basename($arr['path']);
+    $ext = explode('.', $file);
     return $ext[1];
 }
 
