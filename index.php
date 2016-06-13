@@ -121,7 +121,6 @@
     <div class="t right black_r">
     </div>
 </div>
-123
 </body>
 <script>
     function cancel(obj, ev, fn) {
